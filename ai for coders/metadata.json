@@ -1,0 +1,8 @@
+{
+  "name": "AI for Coders - System Architect",
+  "description": "Interactive System Architecture Specification and AI Playground for the AI for Coders platform. Includes design documents, folder structures, and a live GenAI prototype.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
