@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "buildCommand": "pnpm run build",
+  "devCommand": "pnpm run dev",
+  "installCommand": "pnpm install",
+  "framework": "nextjs",
+  "env": {
+    "NODE_ENV": {
+      "value": "production",
+      "description": "Node environment",
+      "required": false
+    },
+    "NEXT_PUBLIC_API_URL": {
+      "value": "https://api.aiforcoders.vercel.app",
+      "description": "Frontend API URL",
+      "required": true
+    },
+    "GEMINI_API_KEY": {
+      "value": "",
+      "description": "Google Gemini API key",
+      "required": true
+    },
+    "SECRET_KEY": {
+      "value": "",
+      "description": "JWT secret key",
+      "required": true
+    }
+  }
+}

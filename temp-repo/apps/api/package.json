@@ -1,0 +1,39 @@
+{
+  "name": "@ai-for-coders/api",
+  "version": "1.0.0",
+  "description": "AI for Coders API backend",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@vercel/node": "^3.0.24"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.2",
+    "vercel": "^32.7.2",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "prettier": "^3.4.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "ai",
+    "coders",
+    "api",
+    "gemini",
+    "vercel"
+  ],
+  "author": "AI for Coders Team",
+  "license": "MIT"
+}
