@@ -8,12 +8,12 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "turbo run dev",
-    "build": "turbo run build",
-    "lint": "turbo run lint",
-    "typecheck": "turbo run typecheck",
-    "test": "turbo run test",
-    "clean": "turbo run clean",
+    "dev": "npx turbo run dev",
+    "build": "npx turbo run build",
+    "lint": "npx turbo run lint",
+    "typecheck": "npx turbo run typecheck",
+    "test": "npx turbo run test",
+    "clean": "npx turbo run clean",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "deploy": "turbo run build && vercel deploy --prod",
     "setup": "pnpm install && turbo run build",
@@ -28,7 +28,7 @@
     "eslint": "^8.57.0",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
-    "typescript": "^5.8.2"
+    "typescript": "~5.5.0"
   },
   "engines": {
     "node": ">=18.0.0",
